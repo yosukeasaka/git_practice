@@ -1,5 +1,6 @@
+---
 # Gitのコマンド一覧
-
+---
 
 ## git init : Creats new Git repository
  - 作業ディストリクトにGitを使いますよと宣言する。
@@ -53,5 +54,5 @@
 
 
 ## git config --global user.email "userEmail" : create user Email for global
-　Gitを使用するときのメールアドレスを登録
+ - Gitを使用するときのメールアドレスを登録
 
