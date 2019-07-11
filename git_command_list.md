@@ -1,5 +1,6 @@
-#git init : Creats new Git repository
-git status : inspects the content of working directory
+# git init : Creats new Git repository
+
+## git status : inspects the content of working directory
 git add filename : adds file from working directory to stagging area
 git commit -m "message" : permanently stores file changes from stangging area
 git log : shows a list of all previouse commits
