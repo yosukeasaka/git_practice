@@ -2,7 +2,9 @@
 # Gitのコマンド一覧
 ---
 
-## git init : Creats new Git repository
+## init
+ - ```git init``` 
+ - Creats new Git repository
  - 作業ディストリクトにGitを使いますよと宣言する。
  
 
