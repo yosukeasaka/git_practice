@@ -8,7 +8,9 @@
  - 作業ディストリクトにGitを使いますよと宣言する。
  
 
-## git status : Inspects the content of working directory
+## status
+ - ```git status``` 
+ - Inspects the content of working directory
  - 現在の状態を確認
  
  
