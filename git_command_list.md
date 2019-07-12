@@ -53,6 +53,27 @@
  - Gitを使用するときのユーザー名を作成
 
 
-## git config --global user.email "userEmail" : create user Email for global
- - Gitを使用するときのメールアドレスを登録
+## git branch : Check hwat branch you are currently on.
+ - 現在どのブランチにいるか確認できる
+ 
+ 
+## git branch new_branch: Create new branch
+ - 新しいブランチの作成
+ - **git checkout new_branch_name : 作成したブランチに移動**
+
+
+## git branch -d : Delete branch after merge
+ - マージした後ののブランチの削除
+ 
+ 
+## git branch -D : Delete branch before merge
+ - マージする前のブランチの削除
+ 
+ 
+## git merge : Merge new_branch into master
+ - マスターのブランチに作成したブランチを統合させる 
+ 
+ 
+ 
+ 
 
