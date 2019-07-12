@@ -14,7 +14,9 @@
  - 現在の状態を確認
  
  
-## git diff : See the difference between added file's before & after
+## diff
+ - ```git diff```
+ - See the difference between added file's before & after
  - Addした後の変更点を確認できる。
 
 
