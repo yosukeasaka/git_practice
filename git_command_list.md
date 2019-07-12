@@ -72,6 +72,32 @@
  
 ## git merge : Merge new_branch into master
  - マスターのブランチに作成したブランチを統合させる 
+
+
+## git clone remote_location clone_name : Make clone
+ - クローンの作成
+
+
+## git remote : Check new remote location(origin)
+ - **git remote -v** : Show list of remote
+ - 新しく作ったクローンの場所を確認
+
+
+## git merge : Merge new_branch into master
+ - マスターのブランチに作成したブランチを統合させる 
+
+
+## git fetch : Bring the changes down to your local copy
+ - 元のデータを自身のローカルに持ってくる
+
+
+## git merge origin/master : Make your local maser branch update
+ - 自身のローカルのマスターブランチをアップデートさせる
+
+## git push origin your_branch_name : Push your branch up to the remote
+ - 自身で作成したブランチを元の場所にあげる  
+
+
  
  
  
