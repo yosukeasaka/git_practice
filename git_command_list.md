@@ -135,8 +135,12 @@
 ---
 
 ## fetch
-#### 元のデータを自身のローカルに持ってくる
+#### 元のデータを自身のローカルに持ってくる。しかし持ってくるだけでそれ以外は何もしない。
  - ```git fetch``` : Bring the changes down to your local copy
+ - *ローカルのmasterには一切手を触れないため、masterとorigin/masterは別のコミットを指す*
+   - この状態で```git checkout master```すると```Switched to branch 'master'
+Your branch is behind 'origin/master' by 2 commit, and can be fast-forwarded.```などと表示される
+ - ↑上記の時は```git merge origin/master```で統合すればよい
 ---
 
 
@@ -150,6 +154,7 @@
 #### 他のリポジトリのデータを取得し、ローカルのブランチに統合
  - ```git pull```
  - ```git pull origin master``` : *こちらのが一般的に使われる*
+ - ```git fetch```と```git merge origin/master```までを全部まとめてやってくれる
 
 ---
  
