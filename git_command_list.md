@@ -156,6 +156,7 @@ Your branch is behind 'origin/master' by 2 commit, and can be fast-forwarded.```
  - ```git pull origin master``` : *こちらのが一般的に使われる*
  - ```git fetch```と```git merge origin/master```までを全部まとめてやってくれる
 
+## test
 ---
  
  
